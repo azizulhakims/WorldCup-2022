@@ -77,12 +77,12 @@
     margin-right: 24px;
 }
 ul{
-    padding: 30px;
+    padding: 20px;
 }
 
 li{
     background-color: white;
-    padding: 10px 20px 10px 30px;
+    padding: 15px 10px;
     color: black;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -93,10 +93,14 @@ li{
     list-style-type: none;
     
 }
+.blog{
+    background-color: #DD0000;
+    color: white;
+}
 
 .rightsite{
     width: 1020px;
-    height: 500px;
+    height: 800px;
     overflow: auto;
     /* background-color: blue; */
     display: grid;
@@ -120,3 +124,42 @@ li{
 }
 
 
+footer{
+    margin-top: 130px;
+    padding-top: 130px;
+    height: 444px;
+    width: 100%;
+    
+    background-color:#161616 ;
+}
+
+.footer-title{
+    font-size: 95px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+hr{
+width: 1400px;
+margin: 0 auto;
+border: .5px solid #ffff;
+}
+nav{
+    margin-top: 50px;
+    
+}
+
+.footer-nav{
+    
+    text-align: center;
+
+}
+
+span{
+    color: #B9B9B9;
+    padding: 20px;
+    
+}
