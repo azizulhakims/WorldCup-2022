@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* banner start */
 
 .banner{
     display: flex;
@@ -59,7 +60,9 @@
     color: white;
 
 }
+/* banner end */
 
+/* section start */
 .fullsection{
     width: 1321px;
     display: flex;
@@ -67,8 +70,6 @@
     margin-left: 140px;
     margin-right: 139px;
 }
-
-
 .leftsite{
     width: 312px;
     height: 312px;
@@ -102,7 +103,6 @@ li{
     width: 1020px;
     height: 800px;
     overflow: auto;
-    /* background-color: blue; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     
@@ -111,7 +111,6 @@ li{
 .cart{
     width: 312px;
     height: 362px;
-    /* background-color: #DD0000; */
     border-radius: 8px;
     margin-bottom: 24px;
     margin-right: 24px;
@@ -123,7 +122,9 @@ li{
     margin-top: 30px;
 }
 
+/* section end */
 
+/* footer start */
 footer{
     margin-top: 130px;
     padding-top: 130px;
@@ -163,3 +164,44 @@ span{
     padding: 20px;
     
 }
+/* footer end */
+
+/* upcoming match srart */
+.vs-all{
+    width: 312px;
+    height: 242px;
+    /* background-color: #DD0000; */
+    border-radius: 8px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    border: 1px solid gray;
+}
+
+.vs{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.vs-main{
+
+    padding-bottom: 150px;
+
+}
+
+.vs-text{
+    padding: 20px;
+    text-align: center;
+}
+.countery{
+    font-size: 20px;
+    color: #161616;
+    margin-bottom: 5px;
+}
+.time{
+    color: #4D4D4D;
+    font-size: 16px;
+
+}
+
+
